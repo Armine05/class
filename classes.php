@@ -34,8 +34,7 @@ class Student extends User {
     public $kurs;
     
     public function __construct($anun, $azganun, $andznagrHamar, $heraxosahamar, $tariq, $mog, $fakultet, $kurs) {
-        // Կանչում ենք ծնող կլասի կոնստրուկտորը
-        parent::__construct($anun, $azganun, $andznagrHamar, $heraxosahamar, $tariq);
+        // Կանչում ենք ծնող կլասի կոնստրուկտորըparent::__construct($anun, $azganun, $andznagrHamar, $heraxosahamar, $tariq);
         
         $this->mog = $mog;
         $this->fakultet = $fakultet;
